@@ -1,0 +1,71 @@
+body {
+    background: url("бак граунд.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+form{
+    background-color: rgba(255,255,255,0.7);
+    width: 90%;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#bukva {
+    display: block;
+    margin:auto;
+    margin-bottom: 15px;
+    line-height:40px ;
+    background: white;
+    border-radius: px;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#bukva:focus{
+    border: 1px solid #000000;
+    font-family: 'Noto Sans', sans-serif;
+}
+#proverit {
+    line-height:40px ;
+    background: white;
+    border-radius: 2px;
+    /* border: 1px solid #222222; */
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+}
+#newGame {
+    line-height:40px ;
+    background: white;
+    border-radius: px;
+    /* border: 1px solid #222222; */
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+}
+#proverit:hover, #newGame:hover{
+    border: 1px solid #000000;
+    font-family: 'Noto Sans', sans-serif;
+}
+#manNotHot{
+    height: 400px;
+    box-shadow:  0 0 10px #00000077 ;
+    font-family: 'Noto Sans', sans-serif;
+}
+#cypher {
+    letter-spacing: 4px;
+    font-family: 'Noto Sans', sans-serif;
+}
